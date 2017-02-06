@@ -1,10 +1,10 @@
 # Site Info
-title: Codinfox Lanyon
-tagline: 'A Jekyll theme based on Lanyon'
+title: Mac.Morning
+tagline: 'Mac.Morning Sun'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
-baseurl: "/lanyon"
-url: http://codinfox.github.io
-logo: '/public/logo.png'
+baseurl: ""
+url: https://SeeArtSun.github.io/blog/
+logo: '/public/favicon.png'
 
 # Site configurations
 gems:
@@ -15,7 +15,7 @@ kramdown:
 excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
-  sass_dir: _scss    
+  sass_dir: _scss
 paginate: 5
 paginate_path: '/blog/page:num'
 permalink: pretty
@@ -25,28 +25,29 @@ version: 1.0.0
 # About/contact
 author:
   name: Codinfox
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
-  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
+  description: A passionate <strong>developer</strong>, learning to be a giant.
+  gravatar: 43f821bc4492be18ad78285a0f569831 # md5 hash of your email address
   contact:
-    linkedin:  https://www.linkedin.com/in/lizhihao
-    github:    https://github.com/codinfox
+    #linkedin:  https://www.linkedin.com/in/lizhihao
+    github:    https://github.com/SeeArtSun
+    # brunch:    https://brunch.co.kr/@sundream
     # facebook:  <hide>
-    twitter:   https://twitter.com/Li_Zhihao
-    weibo:     http://weibo.com/41173780
-    email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
+    # twitter:   https://twitter.com/Li_Zhihao
+    # weibo:     http://weibo.com/41173780
+    email:     mailto:seeart.sun@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
-  Home:           
-    - '/'
-  Blog:           
+  # Home:
+  #   - '/'
+  Blog:
     - '/blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
-  About:          
-    - '/about/'
-  Github Project: 
-    - 'http://codinfox.github.io/'
+  # About:
+  #   - '/about/'
+  Github Project:
+    - 'http://SeeArtSun.github.io/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
@@ -58,6 +59,5 @@ hero:
 
 # Puglins
 mathjax: true # whether support mathjax
-google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
-
+google_analytics_token: 'UA-91474458-1' # leave blank if you don't want google analytics
+disqus_short_name: 'mac-morning' # leave blank if you don't want disqus
