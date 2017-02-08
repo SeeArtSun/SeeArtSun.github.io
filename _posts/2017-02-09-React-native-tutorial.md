@@ -9,7 +9,7 @@ title: React-native Tutorial
 
 # Install React-native
 ## 개발 환경 구성
-* Node.js, iOS, Android를 위한 기본 설정 필요
+* Node.js, iOS, Android를 위한 기본 설정 필요 
 
 {% highlight js %}
 // install [Homebrew](http://brew.sh/)(OS X 패키지 관리 )
