@@ -8,8 +8,8 @@ title: React-native Tutorial
 * Facebook의 React를 모바일로
 
 # Install React-native
-##개발 환경 구성
-* Node.js, iOS, Android를 위한 기본 설정 필요
+## 개발 환경 구성
+* NodeJS, iOS, Android를 위한 기본 설정 필요
 
 {% highlight js %}
 // install [Homebrew](http://brew.sh/)(OS X 패키지 관리 )
